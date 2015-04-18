@@ -57,9 +57,9 @@ class IPTorrentsProvider(generic.TorrentProvider):
 
         self.cache = IPTorrentsCache(self)
 
-        self.urls = {'base_url': 'https://iptorrents.eu',
-                'login': 'https://iptorrents.eu/torrents/',
-                'search': 'https://iptorrents.eu/torrents/?%s%s&q=%s&qf=ti',
+        self.urls = {'base_url': 'https://iptorrents.com',
+                'login': 'https://iptorrents.com/t',
+                'search': 'https://iptorrents.com/t?%s%s&q=%s&qf=ti',
         }
 
         self.url = self.urls['base_url']
